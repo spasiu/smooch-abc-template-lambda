@@ -1,0 +1,5 @@
+[
+    { "phrase": "What’s your style preference?", "payload": "style.json" },
+    { "phrase": "What’s your color preference?", "payload": "color.json" },
+    { "phrase": "What’s your pattern preference?", "payload": "pattern.json" }
+]

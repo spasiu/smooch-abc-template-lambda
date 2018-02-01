@@ -1,0 +1,22 @@
+{
+  "engines": {
+    "node": "v8.7.0"
+  },
+  "name": "abc-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.17.1",
+    "jsonwebtoken": "8.1.1",
+    "request": "2.83.0",
+    "smooch-core": "5.7.0",
+    "co": "4.6.0"
+  }
+}
