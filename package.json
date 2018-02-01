@@ -1,13 +1,12 @@
 {
   "engines": {
-    "node": "v8.7.0"
+    "node": "v6.1.0"
   },
   "name": "abc-templates",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
