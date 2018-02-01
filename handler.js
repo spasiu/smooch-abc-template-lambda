@@ -29,6 +29,7 @@ module.exports.endpoint = (event, context) => {
                             const appUserId = body.appUser._id;
                             const payload = yield abc.getPayload(data);
                             yield smooch.appUsers.sendMessage(appUserId, {
+                                name: 'Template Engine',
                                 text: `Sending listpicker [${data.receivedMessage.title}]`,
                                 override: { apple: { payload }},
                                 role: 'appMaker'
